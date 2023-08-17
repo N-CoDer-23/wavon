@@ -1,0 +1,40 @@
+@media screen and (max-width:1400px) {
+    .navbar{
+        width: 100%;
+    }
+    .navbar ul{
+        padding-left: 18%;
+        gap: 10px;
+        font-size: 14px;
+    }
+    .caard{
+        padding: 70px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .navbar ul{
+        padding-left: 13%;
+        gap: 10px;
+        font-size: 14px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .caard{
+        padding: 2% 20%;
+    }
+  
+}
+
+@media screen and (max-width:800px) {
+    .navbar ul{
+        padding-left: 13%;
+        gap: 10px;
+        font-size: 10px;
+    }
+    .caard{
+        padding: 2%;
+    }
+}
